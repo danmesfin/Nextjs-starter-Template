@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), Typescript,Tailwindcss,Prettier, Eslint, Husky.
+### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app),  Typescript, Tailwindcss, Prettier, Eslint and Husky.
 ![banner](/public/banner.jpg?raw=true)
 
 ## Getting Started
@@ -37,11 +37,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## scripts detail
 
-check-types runs TypeScript's tsc CLI command and pretty prints any warnings/errors.
-check-format asks Prettier to check all of our files (excluding the ones in .prettierignore) for formatting issues.
-check-lint asks ESLint to check for any linting warnings/errors on an .ts, .tsx or .js files.
-format tells prettier to automatically re-write all of our files with proper formatting
-test-all runs a number of the above commands in sequence. https://blog.jarrodwatts.com/nextjs-eslint-prettier-husky
+- check-types:runs TypeScript's tsc CLI command and pretty prints any warnings/errors.
+- check-format: asks Prettier to check all of our files (excluding the ones in .prettierignore) for formatting issues.
+- check-lint: asks ESLint to check for any linting warnings/errors on an .ts, .tsx or .js files.
+- format: tells prettier to automatically re-write all of our files with proper formatting.
+- test-all: runs a number of the above commands in sequence. https://blog.jarrodwatts.com/nextjs-eslint-prettier-husky
 
 ## Deploy on Vercel
 
